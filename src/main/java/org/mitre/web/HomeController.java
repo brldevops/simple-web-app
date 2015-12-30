@@ -85,7 +85,7 @@ public class HomeController {
 		return "admin";
 	}
 
-	@RequestMapping("/login")
+	@RequestMapping("/loginAB")
 	public String login(Principal p) {
 		return "login";
 	}
