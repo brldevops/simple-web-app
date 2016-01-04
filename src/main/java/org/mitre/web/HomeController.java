@@ -61,7 +61,7 @@ public class HomeController {
 		model.addAttribute("authRequestUriBuilderClass", filter.getAuthRequestUrlBuilder().getClass().getSimpleName());
 		
 		model.addAttribute("admins", admins);
-
+		return "abc";
 		return "home";
 	}
 
